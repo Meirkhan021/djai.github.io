@@ -1,0 +1,119 @@
+/* Обнуление стилей и базовые стили */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Шапка (Header) */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Навигация (Navigation) */
+nav {
+    background-color: #2980b9;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Секция "Обо мне" (About Me) */
+#about {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+/* Секция "Портфолио" (Portfolio) */
+#portfolio {
+    padding: 40px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+/* Секция "Контакты" (Contact) */
+#contact {
+    background-color: #3498db;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    color: #fff;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Подвал (Footer) */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
